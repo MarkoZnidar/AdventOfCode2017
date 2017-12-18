@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC2017", "AOC2017\AOC2017.csproj", "{CDE633F1-18BE-4A27-8BBF-D3077270BA45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{907599C2-D02C-4676-8056-29C9A5A5D14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC2017Tests", "Tests\AOC2017Tests\AOC2017Tests.csproj", "{9557B8A3-8EC6-4EBC-8E28-F992AC4472B6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDE633F1-18BE-4A27-8BBF-D3077270BA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE633F1-18BE-4A27-8BBF-D3077270BA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE633F1-18BE-4A27-8BBF-D3077270BA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE633F1-18BE-4A27-8BBF-D3077270BA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9557B8A3-8EC6-4EBC-8E28-F992AC4472B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9557B8A3-8EC6-4EBC-8E28-F992AC4472B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9557B8A3-8EC6-4EBC-8E28-F992AC4472B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9557B8A3-8EC6-4EBC-8E28-F992AC4472B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9557B8A3-8EC6-4EBC-8E28-F992AC4472B6} = {907599C2-D02C-4676-8056-29C9A5A5D14B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16E3D363-558E-4EA5-9F9F-8714303683D4}
